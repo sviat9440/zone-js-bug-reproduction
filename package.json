@@ -1,0 +1,12 @@
+{
+    "name": "zone-js-bug-reproduction",
+    "version": "1.0.0",
+    "scripts": {
+        "expected": "node work-as-expected.js",
+        "actual": "node not-work-as-expected.js"
+    },
+    "dependencies": {
+        "zone.js": "^0.11.8"
+    },
+    "type": "module"
+}
